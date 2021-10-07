@@ -11,3 +11,32 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.delete{
+    color: red;
+    display: none;
+}
+.title:hover .delete {
+   display:block  
+}
+
+.hidden {
+    list-style-type: none;
+   }
+
+.shadow {
+    box-shadow: 5px 10px darkgray;
+    border: 1px solid dimgray
+}
+
+.box {
+    margin: 30px 500px;
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+    color:black
+}
+
+h5 {
+    color: darkslategrey;
+}
